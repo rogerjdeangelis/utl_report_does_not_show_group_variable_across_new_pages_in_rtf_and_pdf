@@ -1,4 +1,4 @@
-Proc report: BUG: utl_report_does_not_show_group_variable_across_new_pages_in_rtf_and_pdf
+BUG proc report does not show group variable across pages in rtf and pdf
 
 BUG
 The ODS output dataset does not honor the page break indicator.
@@ -44,7 +44,7 @@ Algebra           1  ==> Algebra
 PAG 2
 
 MATH        STUDENT
-Algebra          15  ==> Algebra
+Algebra          15  ==> Algebra (missing in rtf and pdf)
                  16
                  17
                  18
@@ -81,7 +81,7 @@ Up to 40 obs from HAVPGE total obs=91
    Algebra       12
    Algebra       13
    Algebra       14
-   Algebra       15   ** should have _PAGE_
+   Algebra       15   ** should have _PAGE_ undicator
    Algebra       15
    Algebra       16
    Algebra       17
